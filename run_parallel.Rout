@@ -1,0 +1,105 @@
+
+R version 4.1.2 (2021-11-01) -- "Bird Hippie"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # .libPaths("/data/nordicmathcovid/rpackages/")
+> # Uncomment to run targets sequentially on your local machine.
+> targets::tar_make_future(workers = 8, reporter = "timestamp")
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.6     ✔ dplyr   1.0.8
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+✔ +0100 UTC 2023-12-29 18:38 27.91 skipped target ger_comb_redu_imp_data
+✔ +0100 UTC 2023-12-29 18:38 27.92 skipped target ger_comb_redu_imp_file_mod_add_ger_redu_imp
+▶ +0100 UTC 2023-12-29 18:38 27.93 dispatched target ger_comb_redu_imp_mcmc_mod_add_ger_redu_imp
+Running MCMC with 4 parallel chains...
+
+Chain 1 Iteration:   1 / 1000 [  0%]  (Warmup) 
+Chain 2 Iteration:   1 / 1000 [  0%]  (Warmup) 
+Chain 3 Iteration:   1 / 1000 [  0%]  (Warmup) 
+Chain 4 Iteration:   1 / 1000 [  0%]  (Warmup) 
+Chain 4 Iteration: 201 / 1000 [ 20%]  (Sampling) 
+Chain 3 Iteration: 201 / 1000 [ 20%]  (Sampling) 
+Chain 1 Iteration: 201 / 1000 [ 20%]  (Sampling) 
+Chain 2 Iteration: 201 / 1000 [ 20%]  (Sampling) 
+Chain 3 Iteration: 450 / 1000 [ 45%]  (Sampling) 
+Chain 2 Iteration: 450 / 1000 [ 45%]  (Sampling) 
+Chain 3 Iteration: 700 / 1000 [ 70%]  (Sampling) 
+Chain 4 Iteration: 450 / 1000 [ 45%]  (Sampling) 
+Chain 1 Iteration: 450 / 1000 [ 45%]  (Sampling) 
+Chain 2 Iteration: 700 / 1000 [ 70%]  (Sampling) 
+Chain 3 Iteration: 950 / 1000 [ 95%]  (Sampling) 
+Chain 3 Iteration: 1000 / 1000 [100%]  (Sampling) 
+Chain 3 finished in 53632.2 seconds.
+Chain 2 Iteration: 950 / 1000 [ 95%]  (Sampling) 
+Chain 2 Iteration: 1000 / 1000 [100%]  (Sampling) 
+Chain 2 finished in 59880.6 seconds.
+Chain 4 Iteration: 700 / 1000 [ 70%]  (Sampling) 
+Chain 1 Iteration: 700 / 1000 [ 70%]  (Sampling) 
+Chain 4 Iteration: 950 / 1000 [ 95%]  (Sampling) 
+Chain 1 Iteration: 950 / 1000 [ 95%]  (Sampling) 
+Chain 4 Iteration: 1000 / 1000 [100%]  (Sampling) 
+Chain 4 finished in 100502.0 seconds.
+Chain 1 Iteration: 1000 / 1000 [100%]  (Sampling) 
+Chain 1 finished in 102322.0 seconds.
+
+All 4 chains finished successfully.
+Mean chain execution time: 79084.2 seconds.
+Total execution time: 102322.3 seconds.
+● +0100 UTC 2023-12-30 23:05 20.42 completed target ger_comb_redu_imp_mcmc_mod_add_ger_redu_imp [1.185 days]
+▶ +0100 UTC 2023-12-30 23:05 20.43 dispatched target ger_comb_redu_imp_summary_mod_add_ger_redu_imp
+▶ +0100 UTC 2023-12-30 23:06 03.50 dispatched target post_rel_ger_redu_imp_tot
+▶ +0100 UTC 2023-12-30 23:06 47.53 dispatched target post_rel_ger_redu_imp
+▶ +0100 UTC 2023-12-30 23:07 31.54 dispatched target ger_comb_redu_imp_draws_mod_add_ger_redu_imp
+▶ +0100 UTC 2023-12-30 23:08 15.57 dispatched target phi_kr_tab_ger_redu_imp
+▶ +0100 UTC 2023-12-30 23:08 59.53 dispatched target ger_comb_redu_imp_diagnostics_mod_add_ger_redu_imp
+▶ +0100 UTC 2023-12-30 23:09 43.37 dispatched target rel_share_ger
+● +0100 UTC 2023-12-30 23:10 30.87 completed target phi_kr_tab_ger_redu_imp [2.745 seconds]
+● +0100 UTC 2023-12-30 23:10 34.27 completed target ger_comb_redu_imp_summary_mod_add_ger_redu_imp [3.235 minutes]
+▶ +0100 UTC 2023-12-30 23:10 34.27 dispatched target mult_eff
+● +0100 UTC 2023-12-30 23:10 37.99 completed target post_rel_ger_redu_imp_tot [2.773 minutes]
+▶ +0100 UTC 2023-12-30 23:10 37.99 dispatched target plot_fit_bavaria_berlin
+● +0100 UTC 2023-12-30 23:10 57.00 completed target ger_comb_redu_imp_draws_mod_add_ger_redu_imp [1.314 seconds]
+● +0100 UTC 2023-12-30 23:11 00.30 completed target ger_comb_redu_imp_diagnostics_mod_add_ger_redu_imp [0.011 seconds]
+● +0100 UTC 2023-12-30 23:11 03.63 completed target post_rel_ger_redu_imp [2.698 minutes]
+● +0100 UTC 2023-12-30 23:11 03.65 completed target mult_eff [1.669 seconds]
+● +0100 UTC 2023-12-30 23:11 03.88 completed target plot_fit_bavaria_berlin [2.867 seconds]
+● +0100 UTC 2023-12-30 23:11 19.40 completed target rel_share_ger [2.604 seconds]
+▶ +0100 UTC 2023-12-30 23:11 19.40 dispatched target fig_5
+● +0100 UTC 2023-12-30 23:11 22.27 completed target fig_5 [1.703 seconds]
+▶ +0100 UTC 2023-12-30 23:11 22.29 completed pipeline [1.19 days]
+Warning messages:
+1: Dropping 'draws_df' class as required metadata was removed. 
+2: Dropping 'draws_df' class as required metadata was removed. 
+3: 2 targets produced warnings. Run targets::tar_meta(fields = warnings, complete_only = TRUE) for the messages. 
+> 
+> q(save = "no")
+> proc.time()
+      user     system    elapsed 
+417458.602   1002.972 102777.978 

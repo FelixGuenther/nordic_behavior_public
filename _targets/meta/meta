@@ -1,0 +1,20 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+fig_5|stem|c4bb9d1706f9c7bc|a9eb6247caa0b6b6|56da408649a641d7|1011012254||t19721.924563347s|5c1f0e396c5351c6|435377|rds|local|vector|||1.703||
+fit_plot_ger|function|5dac8afd3ae30397|||||||||||||||
+ger_comb_redu_imp_data|stem|259e3c2beb02a4d6|8e5d84d1ac3a35ae|52aa462bdad22c9b|-422294682||t19694.4632519283s|530a66ef62f55e6f|19938|qs|local|vector|||0.684|package bayesplot was built under R version 4.1.2. package zoo was built under R version 4.1.2|
+ger_comb_redu_imp_diagnostics_mod_add_ger_redu_imp|stem|fb3fb201c9697336|2025f3cc1261290d|4d18c7af082cf432|-702199452||t19721.9243090372s|ffce0f42693e70b4|46052|fst_tbl|local|vector|||0.011||
+ger_comb_redu_imp_draws_mod_add_ger_redu_imp|stem|c282a864df43147d|1a748255746e2519|4d18c7af082cf432|629228240||t19721.9242682842s|58c7888191bc478e|520322178|fst_tbl|local|vector|||1.314||
+ger_comb_redu_imp_file_mod_add_ger_redu_imp|stem|3b26166b0ea9b4c0|f0214ab598ed0965|ef46db3751d8e999|2080992916|./stan/mod_add_ger_redu_imp.stan|t19694.4592559321s|8fa3e6a4a0c95309|11102|file|local|vector|||0.001||
+ger_comb_redu_imp_mcmc_mod_add_ger_redu_imp|stem|08237d20a8973e79|67cd01d127b8dbaa|7173b8378f567c59|-2039226203||t19721.9203734969s|dbaccace7da75ec3|357246601|qs|local|vector|||102364.841||
+ger_comb_redu_imp_summary_mod_add_ger_redu_imp|stem|bb007afe53e092c4|3b480753d7bc6182|84f8378dcc4e4bec|-1908354214||t19721.9240077475s|c3873de67fbde520|2041067|fst_tbl|local|vector|||194.108||
+mult_eff|stem|4e2d4f6fcefac048|4614dd460f20b31a|a8a36fd48b47f138|588942763||t19721.924347892s|334ec4c391c6746c|186|rds|local|vector|||1.669||
+phi_kr_tab|function|5dc38424732b6ba9|||||||||||||||
+phi_kr_tab_ger_redu_imp|stem|7a7d9804f6528b14|b4cb9f69fb2ef4df|12c86d65f8131f3f|-2024298619||t19721.9239684181s|a4e86d7dd5320bc6|530|rds|local|vector|||2.745|Dropping draws_df class as required metadata was removed.|
+plot_fit_bavaria_berlin|stem|1945ab2bd6ea973b|8fa63bd584c9f5bc|8b431475dca99943|-184477700||t19721.9243504384s|06208ef169227234|595780|rds|local|vector|||2.867||
+post_rel_cont|function|e7b1b6ab326de33d|||||||||||||||
+post_rel_cont_ctry|function|fd19dc0352b63687|||||||||||||||
+post_rel_ger_redu_imp|stem|0d68d37c68d784a9|2c0afed03d64b1f0|c9b70b704c6440b9|-1154247217||t19721.9243476605s|b14f2eba8df23511|416|rds|local|vector|||161.865||
+post_rel_ger_redu_imp_tot|stem|5a3baa4a42da8992|b605f096f5b8363e|1c45ce6c62386a74|-959635707||t19721.9240507922s|4607a68113f03185|220|rds|local|vector|||166.387||
+prepare_data_ger|function|1cc342ab8ffa0013|||||||||||||||
+rel_share_ger|stem|f4d16d2b61dc3903|b29e5b6ed4daab2d|9cc04011c39d088b|1883591404||t19721.9245301057s|f78cd7ac7a52b7f5|387696|rds|local|vector|||2.604|Dropping draws_df class as required metadata was removed.|
+share_bl_ger|function|1da1064d104bf796|||||||||||||||
